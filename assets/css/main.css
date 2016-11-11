@@ -1,0 +1,12 @@
+*{box-sizing: border-box; -moz-box-sizing: border-box; outline: none;}
+body{cursor: url(../img/cursors/sPen.cur), auto; width: 100%; height: 100%; background-image:url(''); background-position: center; background-repeat: no-repeat;}
+#toolbar{width: 100%; cursor: pointer; height: 60px; padding: 10px; position: fixed; top: 0; background: #2f2f2f; color: white;}
+.radcontrol{width: 30px; height: 30px; background: #4f4f4f; display: inline-block; text-align: center; padding: 5px;}
+#pathColor, #rad{display: inline-block;}
+#pathColor{margin-left: 10px; color: #fff; background: transparent; border: none; width: 150px; border-bottom: 1px solid #fff;}
+#pathColor option{color: #525252;}
+#colors{float: right;}
+.swatch{width: 30px; height: 30px; border-radius: 50%; box-shadow: inset 0px 1px 0px rgba(255,255,255, 0.5), 0px 2px 2px rgba(0,0,0,0.5); display: inline-block; margin-left: 10px; }
+.swatch.active{border: 2px solid #fff; box-shadow: inset: 0px 1px 2px rgba(0,0,0,0.5);}
+#eraser{background: url(../img/eraser.png) center no-repeat; width: 20px; height: 20px; margin-left: 10px; display: inline-block; background-size: contain;}
+#getval{display: inline-block; margin-left: 10px;}

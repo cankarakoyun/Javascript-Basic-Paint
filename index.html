@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Canvas Çalışmaları</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css"></link> 
+	</head>
+	<body style="margin: 0;">
+		<div id="toolbar">
+			<div id="rad">
+				Çizgi Kalınlığı <span id="radval">10</span>
+				<div id="decrad" class="radcontrol">-</div>
+				<div id="incrad" class="radcontrol">+</div>
+			</div>
+			<!--select id="pathColor">
+				<option value="white">White</option>
+				<option value="black">Black</option>
+				<option value="red">Red</option>
+				<option value="green">Green</option>
+			</select-->
+			<div id="eraser"></div>
+			<input type='file' id='getval' name="background-image" />
+			<div id="colors">
+			</div>
+		</div>
+		<canvas id="canvas" style="display: block;">
+			Canvas Not Suported
+		</canvas>
+	</body>
+	<script type="text/javascript" src="assets/js/drawing.js"></script>
+	<script type="text/javascript" src="assets/js/radius.js"></script>
+	<script type="text/javascript" src="assets/js/color.js"></script>
+</html>
