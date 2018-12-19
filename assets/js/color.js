@@ -28,12 +28,8 @@ function setDrawColor(e){
 
 
 
-//var pathColor = document.getElementById('pathColor');
 var eraser = document.getElementById('eraser');
-/*function pathColored(){
-	document.body.style.backgroundColor = pathColor.value;		
-}
-*/
+
 function selectEraser(){
 	document.body.style.cursor = "url(assets/img/cursors/eraser.cur), default";
 	context.fillStyle = "white";
@@ -41,4 +37,3 @@ function selectEraser(){
 }
 
 eraser.addEventListener('click', selectEraser);
-//pathColor.addEventListener('change', pathColored);
